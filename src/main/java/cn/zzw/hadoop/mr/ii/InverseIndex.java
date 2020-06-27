@@ -32,7 +32,6 @@ public class InverseIndex {
 				context.write(k, v);
 			}
 		}
-
 	}
 
 	public static class IndexCombiner extends Reducer<Text, Text, Text, Text> {
