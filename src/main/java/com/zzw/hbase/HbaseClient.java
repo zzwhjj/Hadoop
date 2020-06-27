@@ -40,8 +40,8 @@ public class HbaseClient {
 	public static HBaseConfiguration hbconf = new HBaseConfiguration(conf);
 
 	public static void main(String[] args) {
-		createTable("gps");
-		// insertData("wujintao");
+		//createTable("gps");
+		 insertData("gps");
 		// QueryAll("wujintao");
 		// QueryByCondition1("wujintao");
 		// QueryByCondition2("wujintao");

@@ -25,8 +25,8 @@ public class HDFSDemo {
 
 	@Test
 	public void testUpload() throws Exception {
-		InputStream in = new FileInputStream("C:/test.txt");
-		OutputStream out = fs.create(new Path("/data/input/kpi-test.log"));
+		InputStream in = new FileInputStream("H:\\gps\\2017-07-01\\collectgps-2017-07-1-00-1.log.gz");
+		OutputStream out = fs.create(new Path("/data/gps/"));
 		IOUtils.copyBytes(in, out, 4096, true);
 	}
 
